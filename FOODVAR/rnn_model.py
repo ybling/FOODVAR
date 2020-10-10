@@ -1,5 +1,4 @@
 # -*- coding:utf-8 -*-
-__author__ = 'Randolph'
 
 import torch
 from torch.autograd import Variable

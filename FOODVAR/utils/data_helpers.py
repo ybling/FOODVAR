@@ -84,7 +84,7 @@ def batch_iter(data, batch_size, pad_len, shuffle=True):
         # print("baskets:  ", baskets)
         # print("lens:  ", lens)
         # TODO add weight change into the json data
-        # 每个basket最后一个数字代表 weight change: 0-->increase, 1--> mantain, 2--> decrease
+        # the last digital means the variety chanege indicator: 0-->increase, 1--> mantainence, 2--> decrease
         uids, baskets, lens = sort_batch_of_lists(uids, baskets, lens)  # sort 排序是为了后序 pack_packed_sequence() 函数
         baskets = pad_batch_of_lists(baskets, pad_len)
         yield uids, baskets, lens

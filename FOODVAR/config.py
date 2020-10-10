@@ -24,10 +24,10 @@ class Config(object):
         self.dropout = 0.5
         self.num_product = 336 # 商品数目，用于定义 Embedding Layer  
         self.embedding_dim = 32  # 商品表征维数， 用于定义 Embedding Layer
-        self.embedding_dim_weight = 3  # 商品表征维数， 用于定义 Embedding Layer
+        self.embedding_dim_weight = 3  # 商品表征维数，用于定义 Embedding Layer
 
-        self.neg_num = 50  # 负采样个数
-        self.top_k = 10  # Top K 取值
+        self.neg_num = 50  # the number of negative sampling
+        self.top_k = 10  # Top K 
         self.loss_weight = 0.2
 
         # config for rnn_weight model
