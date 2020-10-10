@@ -1,0 +1,6 @@
+python == 3.7.4
+torch == 1.0.1
+pandas == 0.25.1
+numpy == 1.17.2
+pickle == 4.0
+tqdm
