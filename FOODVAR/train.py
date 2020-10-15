@@ -57,7 +57,7 @@ def train():
 
         Args:
             uids: batch of users' ID
-            baskets: batch of users' baskets
+            baskets: batch of users' baskets, baskets = daily food categories of users'
             dynamic_user: batch of users' dynamic representations
             item_embedding: item_embedding matrix
         """

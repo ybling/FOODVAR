@@ -4,7 +4,7 @@ import torch
 from torch.autograd import Variable
 from utils import data_helpers as dh
 
-
+# basket = daily food categories
 class FVModel(torch.nn.Module):
     """
     Input Data: b_1, ... b_i ..., b_t
@@ -57,7 +57,7 @@ class FVModel(torch.nn.Module):
     def forward(self, x, lengths, hidden):
         length = lengths[0]
         # Basket Encoding
-        # users' basket sequence
+        # users' basket sequence, basket = daily food categories
         # x: uids, baskets, lens
         ub_seqs = torch.Tensor(self.config.batch_size, length, self.config.embedding_dim + self.config.embedding_dim_weight).to(self.device)
         # uw_seqs = torch.LongTensor(self.config.batch_size, length, 1).to(self.device)  # [256, 30, 1]
