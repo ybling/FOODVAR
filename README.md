@@ -41,5 +41,5 @@ If you find this code useful in your research, please consider citing:
 
 `Nielsen, Daiva, Nathan Yang, Laurette Dubé, Bärbel Knäuper, Yabo Ling, and Jian-Yun Nie (2020), "Consumption Variety in Food Recommendation”`     
 
-The full paper is available for download at: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3707438`
+The full paper is available for download at: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3707438
 
