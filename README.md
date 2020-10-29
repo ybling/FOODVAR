@@ -32,8 +32,10 @@ This repository can be used in other recommendation datasets in two ways:
 
 
 ## How to train
-you can directly run the `train.py` file to train and test the model:    
-`python train.py`
+you can directly run the `train.py` and `Test.py` files to train and test the model:    
+`python train.py`     
+`python test.py`
+
 
 
 ## Citation
